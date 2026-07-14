@@ -1,0 +1,15 @@
+{
+  "name": "automaton-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Conway Automaton integration with OpenCode",
+  "type": "module",
+  "main": "server.py",
+  "scripts": {
+    "start": "python3 server.py"
+  },
+  "dependencies": {
+    "mcp": ">=1.0.0"
+  },
+  "python": ">=3.11",
+  "license": "MIT"
+}
