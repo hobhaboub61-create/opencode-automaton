@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "automaton": {
+      "type": "local",
+      "command": ["python3", "mcp/automaton-server/server.py"],
+      "cwd": ".",
+      "enabled": false,
+      "environment": {
+        "AUTOMATON_DIR": "../automaton",
+        "AUTOMATON_DATA_DIR": "~/.automaton"
+      },
+      "timeout": 10000
+    }
+  },
+  "permission": {
+    "skill": {
+      "automaton": "allow"
+    }
+  }
+}
